@@ -1,1 +1,2 @@
-# barber_shop_slh
+# Barbershop 
+This project is a web application for managing appointments in a barbershop
