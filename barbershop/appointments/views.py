@@ -13,9 +13,7 @@ def book_appointment(request):
         if form.is_valid():
             form.save()
             return redirect('success')
-    else:
-        form = AppointmentForm()
-    return render(request, 'appointments/booking.html', {'form': form})
+    
 
 def success(request):
     return render(request, 'appointments/success.html')
